@@ -1,0 +1,76 @@
+
+@import '_mixin';
+
+//color
+$color_Blue: #7C9FFF;
+$color_Bluelight: #ADCBFF;
+$color_Bluelighter: #D0D6ED;
+$color_sandligt: #EFC4B3;
+$color_sanddark: #FCA092;
+$color_navText: #35454E;
+//color
+
+//fonts style
+$text_p: "Roboto', sans-serif";
+$text_h1: 'Roboto Slab', serif;
+//fonts style
+
+body{
+    background-color: $color_sandligt;
+}
+
+// ul li a{
+//     color: $color_navText !important;
+// }
+
+.bg-red{
+    background-color: $color_Blue;
+}
+
+h2{
+    @include Htext;
+}
+
+p{
+    font-family: $text_p;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img.rounded-circle {
+@include Cimage;
+}
+
+img.main-img {
+@include image;
+}
+
+.col-md-7.order-md-2 {
+    padding-left: 100px;
+}
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+

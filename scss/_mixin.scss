@@ -1,0 +1,14 @@
+@mixin image(){
+    width: 500px;
+    height: 500px;
+}
+
+@mixin Cimage(){
+    width: 140px;
+    height: 140px;
+}
+
+@mixin Htext(){
+    font-size: 34px;
+    font-family: 'Roboto Slab', serif;
+}
